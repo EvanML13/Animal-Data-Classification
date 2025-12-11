@@ -1,4 +1,8 @@
 # Project Summary 
 This repository contains a machine-learning project implemented entirely in C for classifying animals based on a dataset of binary characteristics. The program analyzes similarity between animals using multiple distance metrics and applies a K-Nearest Neighbors (KNN) algorithm to predict class labels and measure accuracy.
 
-The program loads animal names, 16 binary features, and class labels from a structured text file using robust parsing, error checking, and struct-based storage. The program then computes similarity between two feature vectors using Euclidean Distance, Hamming Distance, and Jaccard Similarity. Given a new sample, the K Nearest Neighbors Algorithm computes the distance to all known animals, sorts by chosen metric, selects the top k nearest neighbors, and predicts the most frequent class label. The program also supports valuation on a separate labeled test dataset to measure prediction accuracy.  
+The program loads animal names, 16 binary features, and class labels from a structured text file using robust parsing, error checking, and struct-based storage. The program then computes similarity between two feature vectors using Euclidean Distance, Hamming Distance, and Jaccard Similarity. Given a new sample, the K Nearest Neighbors Algorithm computes the distance to all known animals, sorts by chosen metric, selects the top k nearest neighbors, and predicts the most frequent class label. The program also supports valuation on a separate labeled test dataset to measure prediction accuracy. 
+
+This project was completed in VSCode SOCS and uploaded to GitHub.
+- December 11th, 2025
+- Evan Leonard
